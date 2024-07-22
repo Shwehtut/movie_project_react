@@ -1,0 +1,55 @@
+npm install --force
+===================
+ "start": "react-scripts --openssl-legacy-provider start",
+ 
+
+npm install ajv --save-dev
+==========================
+ "devDependencies": {
+    ...
+    "ajv": "^8.16.0",
+    ...
+  },
+  "overrides": {
+    "ajv": "^8.16.0"
+  },
+
+Redux
+=====
+> npm i redux react-redux
+
+Redux Basic structure
+=====================
+
+UI > User event > Action > Reducer > Store > State > UI (provider => React + Redux )
+
+Datacarry => Action ( type, Payload {data} )
+
+Tailwind CSS
+=============
+flowbite 
+
+Router
+=======
+>react-router react-router-dom
+
+https://tailwindcomponents.com/component/404-page-not-found
+
+API reference =>https://developer.themoviedb.org/reference/intro/getting-started
+
+api key => 39fb760d251706885eec26584d7a974e
+
+movie-detail => https://api.themoviedb.org/3/movie/{movie_id}?api_key=39fb760d251706885eec26584d7a974e
+
+image path => https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=39fb760d251706885eec26584d7a974e
+
+>npm i axios
+
+
+https://api.themoviedb.org/3/search/movie?query=SEARCH_DATA&api_key=39fb760d251706885eec26584d7a974e
+
+https://api.themoviedb.org/3/search/movie?query=%22bro%22&api_key=39fb760d251706885eec26584d7a974e
+
+codelab.projecttest@gmail.com
